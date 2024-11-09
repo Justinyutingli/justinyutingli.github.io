@@ -1,0 +1,17 @@
+/*Out sheld*/
+.lyt{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1280px;
+    /*auto find height*/
+    overflow: hidden;
+}
+
+/*Header Start*/
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: red;
+}
+
+/*Header End*/
