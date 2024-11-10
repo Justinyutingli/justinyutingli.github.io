@@ -29,6 +29,7 @@
     background-image: url("../images/bannerbackground.png") no-repeat center top;
 }
 .nav-wrap{
+    margin: 0 auto;
     width: 1180px;
     height: 70px;
     background-color:brown;
