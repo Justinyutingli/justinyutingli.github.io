@@ -3,8 +3,6 @@
     width: 100%;
     max-width: 1920px;
     min-width: 1280px;
-    /*auto find height*/
-    overflow: hidden;
 }
 
 /*Header Start*/
@@ -26,9 +24,14 @@
 }
 /*Navigation start*/
 .nav{
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 60px;
     background: url("../images/bannerbackgroundsea.png") no-repeat center;
+    margin-top: -15px;
 }
 .nav-wrap{
     margin: 0 auto;
@@ -58,10 +61,50 @@
 /*Navigation End*/
 /*Image Trailer Start*/
 .banner-pic{
+    overflow: hidden;
     width:100%;
     height: 720px;
-    background-color: cadetblue;
+    background-color: rgba(128, 128, 128, 0.466);
+    opacity: 1;
 }
+
+.slides{
+    width: 100%;
+    height: 720px;
+    animation: 60s slideshow infinite;
+}
+.slides>img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:0 auto;
+}
+@keyframes slideshow{
+    0%{transform: translateY(0px)}
+    3%{transform: translateY(0px)}
+    8.5%{transform: translateY(-720px)}
+    11.5%{transform: translateY(-720px)}
+    18.5%{transform: translateY(-1440px)}
+    21.5%{transform: translateY(-1440px)}
+    28.5%{transform: translateY(-2160px)}
+    31.5%{transform: translateY(-2160px)}
+    38.5%{transform: translateY(-2880px)}
+    41.5%{transform: translateY(-2880px)}
+    48.5%{transform: translateY(-3600px)}
+    51.5%{transform: translateY(-3600px)}
+    58.5%{transform: translateY(-4320px)}
+    61.5%{transform: translateY(-4320px)}
+    68.5%{transform: translateY(-5040px)}
+    71.5%{transform: translateY(-5040px)}
+    78.5%{transform: translateY(-5760px)}
+    81.5%{transform: translateY(-5760px)}
+    88.5%{transform: translateY(-6480px)}
+    91.5%{transform: translateY(-6480px)}
+    97%{transform: translateY(-7200px)}
+    100%{transform: translateY(-7200px)}
+}
+
+
 
 /*Image Trailer End*/
 /*Banner End*/
