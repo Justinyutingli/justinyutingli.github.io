@@ -9,7 +9,7 @@
 .header{
     width: 100%;
     height: 60px;
-    background-color: rgba(45, 77, 136, 0.623);
+    background-color: rgb(0, 0, 0);
 }
 .headerimage{
     text-align: center;
@@ -20,7 +20,25 @@
 .banner{
     width: 100%;
     height: 780px;
-    background-color:darkgray;
+    background-color:rgb(73, 72, 72);
+    animation: changeColor 18s infinite;
+}
+@keyframes changeColor{
+    0%{
+        background-color: rgb(73, 72, 72);
+    }
+    25%{
+        background-color: rgba(38, 32, 122, 0.89);
+    }
+    50%{
+        background-color: rgb(0, 0, 0);
+    }
+    75%{
+        background-color: rgba(38, 32, 122, 0.89);
+    }
+    100%{
+        background-color: rgb(73, 72, 72);
+    }
 }
 /*Navigation start*/
 .nav{
