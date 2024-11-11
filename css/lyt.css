@@ -130,7 +130,7 @@
 /*Banner End*/
 
 
-/*Body Start*/
+/*About me Start*/
 .home_01{
     background-color: rgba(247, 29, 29, 0.753);
     box-shadow: 0 0 20px 20px white inset;
@@ -139,13 +139,13 @@
     width: 1280px;
     margin: 0 auto;
 }
-/*About me Start*/
 .About_me{
     position: relative;
     width: 100%;
     height: 600px;
     margin-bottom: 60px;
     margin-top: 30px;
+    background: url(../images/About_Me_Background.png) no-repeat center;
 }
 .home_title{
     transform-style: preserve-3d;
@@ -224,11 +224,11 @@
     line-height: 0.5;
 }
 /*About me End*/
+
 /*Skills Start*/
 .skill{
     background-color: rgba(212, 198, 198, 0.753);
     box-shadow: 0 0 20px 20px white inset;
-    margin-top: -70px;
 }
 .wrap_skill_center{
     width: 1280px;
