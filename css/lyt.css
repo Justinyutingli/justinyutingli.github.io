@@ -226,6 +226,15 @@
 }
 /*About me End*/
 
+.transition_to_skill{
+    width: 1280px;
+    margin: 0 auto;
+}
+.transition1_content{
+    margin-top: -60px;
+    height: 60px;
+    background: url(../images/transtion1.png) no-repeat center bottom;
+}
 /*Skills Start*/
 .skill{
     background-color: rgba(212, 198, 198, 0.753);
@@ -235,6 +244,7 @@
     width: 1280px;
     margin: 0 auto;
     background: url(../images/Background/Skill_Background.png) no-repeat center;
+    margin-top: -30px;
 }
 .Skills_content{
     position: relative;
