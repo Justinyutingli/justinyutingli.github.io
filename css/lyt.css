@@ -146,8 +146,6 @@
     height: 600px;
     margin-bottom: 60px;
     margin-top: 30px;
-    /*
-    background-color: brown;*/
 }
 .home_title{
     transform-style: preserve-3d;
@@ -157,7 +155,7 @@
     left: 0;
     width: 105px;
     height: 160px;
-    background:url("../images/About_Me_Title.png");
+    background:url("../images/Title/About_Me_Title.png");
 }
 .home_title:hover{
     transition: all 0.5s;
@@ -225,17 +223,191 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     line-height: 0.5;
 }
-
 /*About me End*/
-.home_02{
-    background-color: rgba(247, 29, 29, 0.753);
+/*Skills Start*/
+.skill{
+    background-color: rgba(212, 198, 198, 0.753);
     box-shadow: 0 0 20px 20px white inset;
+    margin-top: -70px;
 }
-.Skills{
+.wrap_skill_center{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: black;
+}
+.Skills_content{
     position: relative;
     width: 100%;
     height: 600px;
     margin-bottom: 60px;
     margin-top: 30px;
 }
-/*About me End*/
+.Skills_title{
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    top: 20px;
+    left: 0;
+    width: 105px;
+    height: 160px;
+    background:url("../images/Title/Skills_Title.png");
+}
+.Skills_title:hover{
+    transition: all 0.5s;
+    transform: rotate3d(0, 0.2, 0.8, 30deg);
+}
+/*Skills End*/
+
+
+/*Project Start*/
+.project{
+    background-color: rgba(93, 163, 255, 0.753);
+    box-shadow: 0 0 20px 20px white inset;
+    margin-top: -70px;
+}
+.wrap_project_center{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: rgb(118, 241, 215);
+}
+.Project_content{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.Project_title{
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    top: 20px;
+    left: 0;
+    width: 105px;
+    height: 160px;
+    background:url("../images/Title/Project_Title.png");
+}
+.Project_title:hover{
+    transition: all 0.5s;
+    transform: rotate3d(0, 0.2, 0.8, -30deg);
+}
+/*Project End*/
+
+/*Research Start*/
+.research{
+    background-color: rgba(253, 126, 126, 0.753);
+    box-shadow: 0 0 20px 20px white inset;
+    margin-top: -70px;
+}
+.wrap_research_center{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: rgb(143, 144, 243);
+}
+.Research_content{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.Research_title{
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    top: 20px;
+    left: 0;
+    width: 105px;
+    height: 160px;
+    background:url("../images/Title/Researchs_Title.png");
+}
+.Research_title:hover{
+    transition: all 0.5s;
+    transform: rotate3d(0, 0.2, 0.8, 30deg);
+}
+/*Project End*/
+
+/*Background Start*/
+.background{
+    background-color: rgba(109, 192, 247, 0.753);
+    box-shadow: 0 0 20px 20px white inset;
+    margin-top: -70px;
+}
+.wrap_background_center{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: rgb(255, 132, 132);
+}
+.Background_content{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.Background_title{
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    top: 20px;
+    left: 0;
+    width: 105px;
+    height: 160px;
+    background:url("../images/Title/Background_Title.png");
+}
+.Background_title:hover{
+    transition: all 0.5s;
+    transform: rotate3d(0, 0.2, 0.8, -30deg);
+}
+/*Background End*/
+
+/*Contact Start*/
+.contact{
+    background-color: rgba(0, 0, 0, 0.322);
+    box-shadow: 0 0 20px 20px white inset;
+    margin-top: -70px;
+}
+.wrap_contact_center{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: rgba(136, 253, 224, 0.548);
+}
+.Contact_content{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+.Contact_title{
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    top: 20px;
+    left: 0;
+    width: 105px;
+    height: 160px;
+    background:url("../images/Title/Contact_Title.png");
+}
+.Contact_title:hover{
+    transition: all 0.5s;
+    transform: rotate3d(0, 0.2, 0.8, 30deg);
+}
+/*Contact End*/
+
+/*Info Start*/
+.info{
+    background-color: rgb(0, 0, 0);
+}
+.wrap_info_center{
+    width: 1280px;
+    margin: 0 auto;
+}
+.Info_content{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+/*Contact End*/
