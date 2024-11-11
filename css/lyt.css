@@ -363,7 +363,6 @@
 .project{
     background-color: rgba(93, 163, 255, 0.753);
     box-shadow: 0 0 20px 20px white inset;
-    margin-top: -70px;
 }
 .wrap_project_center{
     width: 1280px;
@@ -397,7 +396,6 @@
 .research{
     background-color: rgba(253, 126, 126, 0.753);
     box-shadow: 0 0 20px 20px white inset;
-    margin-top: -70px;
 }
 .wrap_research_center{
     width: 1280px;
@@ -431,7 +429,6 @@
 .background{
     background-color: rgba(109, 192, 247, 0.753);
     box-shadow: 0 0 20px 20px white inset;
-    margin-top: -70px;
 }
 .wrap_background_center{
     width: 1280px;
@@ -465,7 +462,6 @@
 .contact{
     background-color: rgba(0, 0, 0, 0.322);
     box-shadow: 0 0 20px 20px white inset;
-    margin-top: -70px;
 }
 .wrap_contact_center{
     width: 1280px;
