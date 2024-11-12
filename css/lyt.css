@@ -151,15 +151,15 @@
     transform-style: preserve-3d;
     perspective: 500px;
     position: absolute;
-    top: 20px;
-    left: 0;
+    top: 15px;
+    left: 20px;
     width: 105px;
     height: 160px;
     background:url("../images/Title/About_Me_Title.png");
 }
 .home_title:hover{
     transition: all 0.5s;
-    transform: rotate3d(0, 0.2, 0.8, -30deg);
+    transform: rotate3d(0, 0.2, 0.8, 15deg);
 }
 .self_picture{
     position:absolute;
@@ -257,8 +257,8 @@
     position: absolute;
     transform-style: preserve-3d;
     perspective: 500px;
-    top: 20px;
-    left: 0;
+    top: 30px;
+    left: 40px;
     width: 105px;
     height: 160px;
     background:url("../images/Title/Skills_Title.png");
@@ -361,27 +361,30 @@
 
 /*Project Start*/
 .project{
+    margin-top: -60px;
+    position: relative;
     background-color: rgba(93, 163, 255, 0.753);
     box-shadow: 0 0 20px 20px white inset;
 }
 .wrap_project_center{
     width: 1280px;
     margin: 0 auto;
-    background-color: rgb(118, 241, 215);
+    background-color: rgba(96, 104, 104, 0.699);
 }
 .Project_content{
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 1800px;
     margin-bottom: 60px;
     margin-top: 30px;
+    background: url(../images/Background/Project_Background.png) no-repeat center;
 }
 .Project_title{
     position: absolute;
     transform-style: preserve-3d;
     perspective: 500px;
-    top: 20px;
-    left: 0;
+    top: 30px;
+    left: 40px;
     width: 105px;
     height: 160px;
     background:url("../images/Title/Project_Title.png");
@@ -389,6 +392,114 @@
 .Project_title:hover{
     transition: all 0.5s;
     transform: rotate3d(0, 0.2, 0.8, -30deg);
+}
+
+/*Project Slides*/
+.project-pic{
+    position:absolute;
+    top: 370px;
+    overflow: hidden;
+    width:100%;
+    height: 480px;
+    opacity: 1;
+}
+
+.project_slides{
+    width: 100%;
+    height: 480px;
+    animation: 30s project_slideshow infinite;
+}
+.project_slides>img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:0 auto;
+}
+@keyframes project_slideshow{
+    0%{transform: translateY(0px)}
+    3%{transform: translateY(0px)}
+    8.5%{transform: translateY(-480px)}
+    11.5%{transform: translateY(-480px)}
+    18.5%{transform: translateY(-960px)}
+    21.5%{transform: translateY(-960px)}
+    28.5%{transform: translateY(-1440px)}
+    31.5%{transform: translateY(-1440px)}
+    38.5%{transform: translateY(-1920px)}
+    41.5%{transform: translateY(-1920px)}
+    48.5%{transform: translateY(-2400px)}
+    51.5%{transform: translateY(-2400px)}
+    58.5%{transform: translateY(-2880px)}
+    61.5%{transform: translateY(-2880px)}
+    68.5%{transform: translateY(-3360px)}
+    71.5%{transform: translateY(-3360px)}
+    78.5%{transform: translateY(-3840px)}
+    81.5%{transform: translateY(-3840px)}
+    88.5%{transform: translateY(-4320px)}
+    91.5%{transform: translateY(-4320px)}
+    97%{transform: translateY(-4800px)}
+    100%{transform: translateY(-4800px)}
+}
+/*project slides show End*/
+
+.Project_discription{
+    width: 500px;
+    height: 160px;
+    background-color: rgba(165, 42, 42, 0.616);
+    position:absolute;
+    top: 100px;
+    right: 210px;
+}
+.Project_discription>p{
+    font-family: sans-serif;
+    line-height: 1;
+    overflow: hidden;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+.Project_engineer{
+    position:absolute;
+    bottom: 800px;
+    left: 500px;
+    width:200px;
+    height: 70px;
+    background: url(../images/Tag_engineer_project.png) no-repeat center;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+.Project_engineer:hover{
+    transition: all 0.6s;
+    transform: scale(1.15) rotate3d(0, 0, 1, 4deg);
+}
+.Project_engineer_text{
+    position:absolute;
+    width: 200px;
+    height: 600px;
+    bottom: 170px;
+    left: 450px;
+    background-color: aqua;
+}
+.Project_production{
+    position:absolute;
+    bottom: 810px;
+    right: 200px;
+    width:200px;
+    height: 90px;
+    background:url(../images/Tag_production_project.png) no-repeat center;
+    transform-style: preserve-3d;
+    perspective: 500px;
+}
+.Project_production:hover{
+transition: all 0.6s;
+transform: scale(1.15) rotate3d(0, 0, 1, 4deg);
+}
+.Project_production_text{
+    position:absolute;
+    width: 200px;
+    height: 600px;
+    bottom: 190px;
+    right: 250px;
+    background-color: rgb(52, 253, 96);
 }
 /*Project End*/
 
@@ -423,7 +534,7 @@
     transition: all 0.5s;
     transform: rotate3d(0, 0.2, 0.8, 30deg);
 }
-/*Project End*/
+/*Research End*/
 
 /*Background Start*/
 .background{
