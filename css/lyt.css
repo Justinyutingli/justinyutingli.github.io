@@ -377,7 +377,7 @@
     height: 1800px;
     margin-bottom: 60px;
     margin-top: 30px;
-    background: url(../images/Background/Project_Background.png) no-repeat center;
+    background: url(../images/Background/Project_Background.png) no-repeat center top;
 }
 .Project_title{
     position: absolute;
@@ -473,11 +473,12 @@
 }
 .Project_engineer_text{
     position:absolute;
-    width: 200px;
+    width: 240px;
     height: 600px;
     bottom: 170px;
-    left: 450px;
+    left: 400px;
     background-color: aqua;
+    transform: skewX(-12deg);
 }
 .Project_production{
     position:absolute;
@@ -495,11 +496,12 @@ transform: scale(1.15) rotate3d(0, 0, 1, 4deg);
 }
 .Project_production_text{
     position:absolute;
-    width: 200px;
+    width: 240px;
     height: 600px;
-    bottom: 190px;
-    right: 250px;
+    bottom: 200px;
+    right: 240px;
     background-color: rgb(52, 253, 96);
+    transform: skewX(-10deg);
 }
 /*Project End*/
 
