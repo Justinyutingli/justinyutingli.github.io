@@ -664,16 +664,16 @@ transform: scale(1.15) rotate3d(0, 0, 1, 4deg);
 .Background_content{
     position: relative;
     width: 100%;
-    height: 600px;
-    margin-bottom: 60px;
-    margin-top: 30px;
+    height: 915px;
+    background:url(../images/Background/Background_Background.png) no-repeat center;
+    margin-top: -5px;
 }
 .Background_title{
     position: absolute;
     transform-style: preserve-3d;
     perspective: 500px;
-    top: 20px;
-    left: 0;
+    top: 60px;
+    left: 40px;
     width: 105px;
     height: 160px;
     background:url("../images/Title/Background_Title.png");
@@ -682,40 +682,164 @@ transform: scale(1.15) rotate3d(0, 0, 1, 4deg);
     transition: all 0.5s;
     transform: rotate3d(0, 0.2, 0.8, -30deg);
 }
-/*Background End*/
 
-/*Contact Start*/
-.contact{
-    background-color: rgba(0, 0, 0, 0.322);
-    box-shadow: 0 0 20px 20px white inset;
-}
-.wrap_contact_center{
-    width: 1280px;
-    margin: 0 auto;
-    background-color: rgba(136, 253, 224, 0.548);
-}
-.Contact_content{
-    position: relative;
-    width: 100%;
-    height: 600px;
-    margin-bottom: 60px;
-    margin-top: 30px;
-}
-.Contact_title{
+.Box_Top{
     position: absolute;
     transform-style: preserve-3d;
-    perspective: 500px;
-    top: 20px;
-    left: 0;
-    width: 105px;
-    height: 160px;
-    background:url("../images/Title/Contact_Title.png");
+    perspective:  500px;
+    top: 35px;
+    right: 50px;
+    width: 1000px;
+    height: 290px;
+    background: url(../images/background_BoxTop.png) no-repeat center;
 }
-.Contact_title:hover{
+.Box_Top:hover{
     transition: all 0.5s;
-    transform: rotate3d(0, 0.2, 0.8, 30deg);
+    transform: rotate3d(0, 0, 0.8, 2deg) scale(1.04);
 }
-/*Contact End*/
+.Box_Top_text{
+    position: relative;
+    margin-top: 35px;
+    margin-left: 165px;
+    width: 720px;
+    height: 180px;
+    background-color: blue;
+    transform: skewx(-8deg);
+
+    font-family: sans-serif;
+    line-height: 1;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.Box_Left_Title{
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective:  500px;
+    top: 360px;
+    left: 70px;
+    width: 490px;
+    height: 80px;
+    background: url(../images/Background_TitleLeft.png) no-repeat center;
+}
+.Box_Left_Title:hover{
+    transition: all 0.5s;
+    transform: rotate3d(0, 0, 0.8, 2deg) scale(1.04);
+}
+.Box_Left_Title_text{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 400px;
+    height: 40px;
+    background-color: blue;
+    transform: skewx(-16deg) rotateZ(-3deg);
+
+    font-family: sans-serif;
+    line-height: 1;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.Box_Left{
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective:  400px;
+    bottom: 5px;
+    left: 50px;
+    width: 490px;
+    height: 485px;
+    background: url(../images/Background_TitleLeftBox.png) no-repeat center;
+}
+.Box_Left:hover{
+    transition: all 0.5s;
+    transform: rotate3d(0, 0, 0.8, 2deg) scale(1.04);
+}
+.Box_Left_text{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 75px;
+    width: 345px;
+    height: 380px;
+    background-color: blue;
+    transform: skewx(-9deg);
+
+    font-family: sans-serif;
+    line-height: 1;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.Box_Right_Title{
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective:  500px;
+    top: 330px;
+    right: 40px;
+    width: 500px;
+    height: 80px;
+    background: url(../images/Background_TitleRight.png) no-repeat center;
+}
+.Box_Right_Title:hover{
+    transition: all 0.5s;
+    transform: rotate3d(0, 0, 0.8, 2deg) scale(1.04);
+}
+.Box_Right_Title_text{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 420px;
+    height: 35px;
+    background-color: blue;
+    transform: skewx(-16deg) rotateZ(-2.5deg);
+
+    font-family: sans-serif;
+    line-height: 1;
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.Box_Right{
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective:  400px;
+    bottom: 20px;
+    right: 40px;
+    width: 580px;
+    height: 510px;
+    background: url(../images/Background_TitleRightBox.png) no-repeat center;
+}
+.Box_Right:hover{
+    transition: all 0.5s;
+    transform: rotate3d(0, 0, 0.8, 2deg) scale(1.04);
+}
+.Box_Right_text{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 410px;
+    height: 400px;
+    background-color: blue;
+    transform: skewx(-8deg) rotateZ(-3.5deg);
+
+    font-family: sans-serif;
+    line-height: 1;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+/*Background End*/
 
 /*Info Start*/
 .info{
@@ -729,7 +853,22 @@ transform: scale(1.15) rotate3d(0, 0, 1, 4deg);
     position: relative;
     width: 100%;
     height: 600px;
-    margin-bottom: 60px;
-    margin-top: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
+.Contact_title{
+    position: absolute;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    top: 20px;
+    left: 20px;
+    width: 105px;
+    height: 160px;
+    background:url("../images/Title/Contact_Title.png");
+}
+.Contact_title:hover{
+    transition: all 0.5s;
+    transform: rotate3d(0, 0.2, 0.8, 10deg);
+}
+
 /*Contact End*/
